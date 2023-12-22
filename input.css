@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+
+.btn {
+  @apply text-3xl font-bold underline text-white font-serif sm:bg-orange-600 md:bg-yellow-300 lg:bg-violet-600;
+}
+
+@tailwind utilities;
