@@ -1,0 +1,170 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="input.css">
+
+  <!-- <link rel="stylesheet" href="styles.css"> -->
+
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<!-- <body class ="bg-black">
+  <div class="btn">
+    Hello 
+  </div>
+
+  <h1 class="text-black flex justify-center items-center  h-[100px] bg-blue-800 font-sans font-bold  hover:bg-green-500 transition duration-300 ease-in rounded-2xl border-2 border-red-700 " >
+    Hello world!
+  </h1> -->
+  <body>
+<!-- <div class="flex  bg-gray-200 ">
+
+
+<div class="mx-96 py-60 mr-40">
+<h2 class="text-blue-600 font-bold text-4xl ">facebook</h2>
+<h4 class="">Facebook helps you connect and share</h4>
+<h4 class="">with the people in your life</h4>
+</div> -->
+
+<!-- border-black border-4 -->
+<!-- outline-blue-600 -->
+<!-- action="/contact"> -->
+
+<!-- <div class="flex flex-col">
+
+  <div class="flex flex-col w-60 h-72  my-36  border-white border-2">
+    <form method="post" action="/login">   
+  
+   <input class="my-2 w-52 mx-3" type="text" name="name" id="Name" placeholder="Name">
+<input class="my-2 w-52 mx-3" type="text" name="email" id="email" placeholder="Email address or phone number">
+<input class="my-6 w-52 mx-3" type="password" name="password" id="password" placeholder="Password">
+
+    <button type="submit" class=" w-52  mx-3 my-2 bg-sky-500 cursor-pointer " >Log In</button>
+    <span class=" my-4 text-xs mx-12 text-sky-600 cursor-pointer hover:underline" >Forgotten Password?</span>
+    
+    </form>
+    <hr class=""> -->
+    <!-- <button type="submit" class=" my-6 w-40 h-8  mx-8 rounded-md  bg-green-600  text-white cursor-pointer">Create New Account</button>  -->
+
+  <!-- </div> -->
+
+  <!-- <link rel="stylesheet" href="styles.css"> -->
+  <!-- <script src="script.js"></script>  -->
+    
+ <div class="ok">
+  
+  <nav class="flex flex-col">
+    <ul class="flex">
+<li class=" w-40 mx-36 my-2 h-24">
+
+  <main>
+    <%- include('logo') %> <!-- Include content from another EJS file -->
+</main>
+
+
+  
+</li>
+
+      <li>
+        <form action="/mylogin" method="post">
+          <button type="submit" class="w-52 mx-3 my-12 bg-black  text-white cursor-pointer">Log In</button>
+        </form>
+      </li>
+      <li>
+        <form action="/myregister" method="post">
+          <button type="submit" class="w-52 mx-3 my-12 bg-black  text-white cursor-pointer">Register Now</button>
+        </form>
+      </li>
+      <li>
+        <li class="w-20 mx-3 my-12  flex justify-center bg-black  text-white cursor-pointer"><a href="#" id="blogLink">Blog</a></li>
+      </li>
+    </ul>
+  </nav>
+  
+  <img  class=" mx-36 h-96 w-96" src="https://image.lexica.art/full_jpg/a6a6921b-9e35-449f-88ec-3fc187879759"  alt="Description of the image">
+
+</div>
+
+
+<main>
+  <%- include('meesho') %> <!-- Include content from another EJS file -->
+</main>
+
+
+
+<!-- 
+
+<form  action="/mylogin" method="post">
+  <button type="submit" class=" w-52  mx-3 my-2 bg-sky-500 cursor-pointer " >Log In</button>
+</form>
+
+
+<form  action="/myregister" method="post">
+  <button type="submit" class=" w-52  mx-3 my-2 bg-sky-500 cursor-pointer " >Register Now</button>
+</form> -->
+
+</div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- style tags -->
+
+<style>
+
+  body{
+    background-color: burlywood;
+  }
+  .flex,.ok {
+    display: flex;
+  }
+
+  .flex li {
+    margin-right: 10px; /* Add some spacing between the items */
+  }
+</style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- script tags -->
+
+
+<script>
+  document.getElementById('blogLink').onclick = function() {
+    window.location.href = "/blogs"; // Replace with the actual path to your blog EJS file
+  };
+
+</script>
+
+
+
+
+
+</body>
+</html>
