@@ -1,0 +1,7 @@
+.flex {
+    display: flex;
+  }
+
+  .flex li {
+    margin-right: 10px; /* Add some spacing between the items */
+  }
